@@ -31,7 +31,7 @@
     End Sub
 
     Protected Sub btnAñadirPago_Click(sender As Object, e As EventArgs) Handles btnAñadirPago.Click
-        lblRespuesta.Text = pago1.AñadirPago()
+        lblRespuesta.Text = pago1.AñadirmetododePago()
     End Sub
 
     Protected Sub btnPagar_Click(sender As Object, e As EventArgs) Handles btnPagar.Click

@@ -94,12 +94,12 @@
   <ItemGroup>
     <Content Include="frmCarritoCompra.aspx" />
     <Content Include="frmCliente.aspx" />
-    <Content Include="frmDefault.aspx" />
-    <Content Include="frmEnvio.aspx" />
     <Content Include="frmLineaProducto.aspx" />
-    <Content Include="frmProducto.aspx" />
+    <Content Include="frmPrincipal.aspx" />
+    <Content Include="frmWebEnvio.aspx" />
     <Content Include="frmWebPago.aspx" />
     <Content Include="frmPedido.aspx" />
+    <Content Include="frmWebProducto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +108,7 @@
     </Compile>
     <Compile Include="frmCarritoCompra.aspx.vb">
       <DependentUpon>frmCarritoCompra.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmCliente.aspx.designer.vb">
       <DependentUpon>frmCliente.aspx</DependentUpon>
@@ -117,20 +117,6 @@
       <DependentUpon>frmCliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmDefault.aspx.designer.vb">
-      <DependentUpon>frmDefault.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frmDefault.aspx.vb">
-      <DependentUpon>frmDefault.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="frmEnvio.aspx.designer.vb">
-      <DependentUpon>frmEnvio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frmEnvio.aspx.vb">
-      <DependentUpon>frmEnvio.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="frmLineaProducto.aspx.designer.vb">
       <DependentUpon>frmLineaProducto.aspx</DependentUpon>
     </Compile>
@@ -138,12 +124,19 @@
       <DependentUpon>frmLineaProducto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmProducto.aspx.designer.vb">
-      <DependentUpon>frmProducto.aspx</DependentUpon>
+    <Compile Include="frmPrincipal.aspx.designer.vb">
+      <DependentUpon>frmPrincipal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmProducto.aspx.vb">
-      <DependentUpon>frmProducto.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+    <Compile Include="frmPrincipal.aspx.vb">
+      <DependentUpon>frmPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmWebEnvio.aspx.designer.vb">
+      <DependentUpon>frmWebEnvio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmWebEnvio.aspx.vb">
+      <DependentUpon>frmWebEnvio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmWebPago.aspx.designer.vb">
       <DependentUpon>frmWebPago.aspx</DependentUpon>
@@ -157,7 +150,14 @@
     </Compile>
     <Compile Include="frmPedido.aspx.vb">
       <DependentUpon>frmPedido.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmWebProducto.aspx.designer.vb">
+      <DependentUpon>frmWebProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmWebProducto.aspx.vb">
+      <DependentUpon>frmWebProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
